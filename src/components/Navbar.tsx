@@ -37,7 +37,7 @@ export default function Navbar() {
             )}
         >
             <div className="container mx-auto px-6 flex items-center justify-between">
-                <Link href="/" className="relative w-32 h-12">
+                <Link href="/" className="relative w-40 h-14">
                     <Image
                         src="/images/logo.png"
                         alt="AWING Body Repair"
