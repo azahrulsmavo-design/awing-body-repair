@@ -8,11 +8,12 @@ import { motion, AnimatePresence } from "framer-motion";
 import { cn } from "@/lib/utils";
 
 const navLinks = [
-    { name: "Beranda", href: "#hero" },
-    { name: "Tentang", href: "#about" },
-    { name: "Layanan", href: "#services" },
-    { name: "Galeri", href: "#gallery" },
-    { name: "Kontak", href: "#contact" },
+    { name: "Beranda", href: "/#hero" },
+    { name: "Tentang", href: "/#about" },
+    { name: "Layanan", href: "/#services" },
+    { name: "Galeri", href: "/#gallery" },
+    { name: "Blog", href: "/blog" },
+    { name: "Kontak", href: "/#contact" },
 ];
 
 export default function Navbar() {
@@ -61,7 +62,7 @@ export default function Navbar() {
                         </Link>
                     ))}
                     <Link
-                        href="https://wa.me/6287770152344"
+                        href="https://wa.me/6281995896037"
                         target="_blank"
                         className="px-5 py-2.5 bg-blue-600 text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-2 shadow-md hover:shadow-lg"
                     >
@@ -103,7 +104,7 @@ export default function Navbar() {
                                 </Link>
                             ))}
                             <Link
-                                href="https://wa.me/6287770152344"
+                                href="https://wa.me/6281995896037"
                                 target="_blank"
                                 className="mt-4 w-full py-3 bg-blue-600 text-white text-center font-bold rounded-lg hover:bg-blue-700"
                                 onClick={() => setIsMobileMenuOpen(false)}

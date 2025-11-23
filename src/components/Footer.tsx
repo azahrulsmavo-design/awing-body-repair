@@ -46,7 +46,6 @@ export default function Footer() {
                         <h4 className="text-lg font-bold mb-6">Layanan</h4>
                         <ul className="space-y-4">
                             <li className="text-slate-400">Body Repair Total</li>
-                            <li className="text-slate-400">Pengecatan Oven</li>
                             <li className="text-slate-400">Pencocokan Warna</li>
                             <li className="text-slate-400">Perbaikan Penyok</li>
                             <li className="text-slate-400">Poles & Detailing</li>
@@ -63,7 +62,7 @@ export default function Footer() {
                             </li>
                             <li className="flex items-center gap-3 text-slate-400">
                                 <Phone className="shrink-0 text-blue-500" size={18} />
-                                <span>0877-7015-2344</span>
+                                <span>+62 819-9589-6037</span>
                             </li>
                             <li className="flex items-center gap-3 text-slate-400">
                                 <Mail className="shrink-0 text-blue-500" size={18} />

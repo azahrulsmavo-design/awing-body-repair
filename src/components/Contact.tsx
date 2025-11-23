@@ -51,9 +51,9 @@ export default function Contact() {
                                 </div>
                                 <div>
                                     <h4 className="text-xl font-bold text-slate-900 mb-2">Telepon & WhatsApp</h4>
-                                    <p className="text-slate-600 mb-2">0877-7015-2344</p>
+                                    <p className="text-slate-600 mb-2">+62 819-9589-6037</p>
                                     <Link
-                                        href="https://wa.me/6287770152344"
+                                        href="https://wa.me/6281995896037"
                                         target="_blank"
                                         className="inline-flex items-center gap-2 text-green-600 hover:text-green-700 transition-colors font-medium"
                                     >
