@@ -13,78 +13,94 @@ export interface BlogPost {
 
 export const blogPosts: BlogPost[] = [
     {
-        slug: "tips-merawat-cat-mobil-agar-tetap-kinclong",
-        title: "5 Tips Merawat Cat Mobil Agar Tetap Kinclong di Cuaca Ekstrem",
+        slug: "perbaikan-body-mobil-panduan-lengkap",
+        title: "Perbaikan Body Mobil: Panduan Lengkap untuk Memulihkan Tampilan dan Nilai Kendaraan Anda",
         excerpt:
-            "Jangan biarkan panas matahari dan hujan merusak kilau mobil Anda. Simak tips ampuh merawat cat mobil agar tetap awet dan bercahaya.",
-        date: "2023-10-25",
+            "Perbaikan body mobil bukan sekadar urusan estetika. Panel yang penyok, goresan cat, bumper retak, hingga pintu yang rusak perlu segera ditangani.",
+        date: "2025-08-17",
         author: "Admin AWING",
         image: "https://images.unsplash.com/photo-1601362840469-51e4d8d58785?q=80&w=2070&auto=format&fit=crop",
-        tags: ["Perawatan", "Cat Mobil", "Tips"],
+        tags: ["Panduan", "Body Repair"],
         content: `
-      <p>Cuaca ekstrem seperti panas terik yang menyengat dan hujan deras yang tiba-tiba bisa menjadi musuh utama bagi cat mobil Anda. Jika dibiarkan tanpa perawatan yang tepat, cat mobil bisa cepat kusam, pudar, bahkan mengelupas. Berikut adalah 5 tips ampuh untuk menjaga cat mobil Anda tetap kinclong:</p>
-
-      <h3>1. Cuci Mobil Secara Rutin</h3>
-      <p>Debu, kotoran burung, dan getah pohon yang menempel terlalu lama dapat merusak lapisan cat. Usahakan mencuci mobil minimal seminggu sekali, terutama setelah terkena hujan karena air hujan mengandung asam yang korosif.</p>
-
-      <h3>2. Gunakan Sabun Khusus Mobil</h3>
-      <p>Hindari menggunakan deterjen atau sabun cuci piring karena dapat mengikis lapisan wax pelindung cat. Gunakan sampo khusus mobil yang memiliki pH seimbang.</p>
-
-      <h3>3. Lakukan Polishing dan Waxing</h3>
-      <p>Polishing berguna untuk menghilangkan baret halus, sedangkan waxing memberikan lapisan pelindung tambahan agar cat tidak mudah kusam akibat sinar UV. Lakukan waxing setidaknya 3 bulan sekali.</p>
-
-      <h3>4. Parkir di Tempat Teduh</h3>
-      <p>Sinar matahari langsung (UV) adalah penyebab utama cat mobil memudar. Jika memungkinkan, parkirlah di garasi atau gunakan sarung mobil (car cover) jika harus parkir di luar ruangan.</p>
-
-      <h3>5. Segera Perbaiki Baret atau Penyok</h3>
-      <p>Baret yang dalam bisa menembus lapisan cat hingga ke logam, menyebabkan karat. Jika ada kerusakan pada bodi mobil, segera bawa ke bengkel body repair terpercaya seperti <strong>AWING Body Repair</strong> untuk penanganan profesional.</p>
+      <p>Perbaikan body mobil bukan sekadar urusan estetika. Panel yang penyok, goresan cat, bumper retak, hingga pintu yang rusak perlu segera ditangani untuk mencegah kerusakan lebih lanjut seperti karat.</p>
+      <h3>Mengapa Penting?</h3>
+      <p>Kerusakan pada bodi mobil dapat menurunkan nilai jual kembali kendaraan Anda secara signifikan. Selain itu, kerusakan struktur yang tidak terlihat bisa membahayakan keselamatan berkendara.</p>
+      <p>Di AWING Body Repair, kami menggunakan teknik modern untuk mengembalikan bentuk dan kekuatan bodi mobil Anda seperti semula.</p>
     `,
     },
     {
-        slug: "perbedaan-body-repair-dan-ketok-magic",
-        title: "Apa Bedanya Body Repair dan Ketok Magic? Mana yang Lebih Baik?",
+        slug: "servis-bodi-mobil-cepat",
+        title: "Servis Bodi Mobil Kini Tidak Butuh Waktu Lama",
         excerpt:
-            "Sering bingung memilih antara Body Repair atau Ketok Magic? Pahami perbedaan proses, hasil, dan biayanya di sini sebelum memutuskan.",
-        date: "2023-11-10",
+            "Anda sering mengalami proses yang lama dan berbelit-belit ketika harus servis bodi mobil? Temukan solusinya di sini.",
+        date: "2023-09-25",
         author: "Admin AWING",
-        image: "https://images.unsplash.com/photo-1507136566006-cfc505b114fc?q=80&w=2070&auto=format&fit=crop",
-        tags: ["Edukasi", "Body Repair"],
+        image: "https://images.unsplash.com/photo-1487754180451-c456f719a1fc?q=80&w=2070&auto=format&fit=crop",
+        tags: ["Servis Cepat", "Tips"],
         content: `
-      <p>Ketika mobil mengalami penyok atau baret, pemilik mobil seringkali dihadapkan pada dua pilihan: bengkel Body Repair atau Ketok Magic. Keduanya menawarkan solusi perbaikan bodi mobil, namun memiliki metode dan hasil yang berbeda.</p>
-
-      <h3>Metode Pengerjaan</h3>
-      <p><strong>Ketok Magic</strong> biasanya menggunakan alat-alat sederhana dan teknik khusus untuk mengembalikan bentuk plat bodi dari dalam atau luar tanpa banyak merusak cat asli (jika memungkinkan). Pengerjaannya cenderung lebih cepat.</p>
-      <p><strong>Body Repair</strong> menggunakan prosedur standar pabrikan. Mulai dari pengelasan, pengetokan, pendempulan, hingga pengecatan ulang di ruang oven (spray booth) untuk hasil yang presisi dan warna yang sama persis dengan aslinya.</p>
-
-      <h3>Kualitas Hasil</h3>
-      <p>Body Repair umumnya menawarkan hasil yang lebih rapi dan tahan lama karena menggunakan bahan cat berkualitas dan proses pengecatan yang steril dari debu. Warna yang dihasilkan pun lebih akurat karena melalui proses color matching komputerisasi.</p>
-
-      <h3>Mana yang Harus Dipilih?</h3>
-      <p>Jika kerusakan hanya penyok kecil tanpa goresan cat yang parah, Ketok Magic bisa jadi solusi cepat dan hemat. Namun, jika kerusakan cukup parah, melibatkan struktur bodi, atau cat sudah terkelupas luas, <strong>Body Repair</strong> adalah pilihan terbaik untuk mengembalikan mobil Anda seperti baru.</p>
+      <p>Anda sering mengalami proses yang lama dan berbelit-belit ketika harus servis bodi mobil? Mobil Anda sudah sampai di bengkel tapi tak kunjung dilayani oleh teknisi?</p>
+      <p>Kami memahami waktu Anda sangat berharga. Dengan manajemen alur kerja yang efisien dan peralatan canggih, AWING Body Repair berkomitmen memberikan layanan yang cepat tanpa mengorbankan kualitas.</p>
     `,
     },
     {
-        slug: "tanda-mobil-perlu-siram-full-body",
-        title: "3 Tanda Mobil Anda Sudah Perlu Siram Cat Full Body",
+        slug: "pemilihan-warna-cat-mobil",
+        title: "Pemilihan Warna Cat Mobil Anti Bosan",
         excerpt:
-            "Warna belang, cat kusam, atau banyak baret halus? Kenali tanda-tanda mobil Anda membutuhkan peremajaan total dengan cat full body.",
-        date: "2023-12-05",
+            "Tak Usah Beli Baru, Simak Tips Pemilihan Warna Cat Mobil Anti Bosan Ini. Solusi agar kendaraan lama terasa baru kembali.",
+        date: "2023-09-25",
         author: "Admin AWING",
         image: "https://images.unsplash.com/photo-1494905998402-395d579af97f?q=80&w=2073&auto=format&fit=crop",
-        tags: ["Repaint", "Tips"],
+        tags: ["Warna", "Repaint"],
         content: `
-      <p>Mobil yang sudah berusia beberapa tahun biasanya mulai menunjukkan tanda-tanda penuaan pada catnya. Kapan waktu yang tepat untuk melakukan pengecatan ulang seluruh bodi (siram full body)? Berikut tandanya:</p>
-
-      <h3>1. Warna Cat Sudah Kusam dan Pudar (Chalking)</h3>
-      <p>Jika cat mobil terlihat seperti berkapur atau warnanya tidak lagi tajam meskipun sudah dipoles, itu tandanya lapisan clear coat sudah menipis atau hilang. Ini saatnya untuk repaint.</p>
-
-      <h3>2. Banyak Baret Halus (Swirl Marks) dan Penyok Kecil</h3>
-      <p>Akumulasi baret-baret halus akibat pencucian yang salah atau gesekan ranting pohon bisa membuat mobil terlihat tidak terawat. Jika jumlahnya sudah terlalu banyak, spot repair mungkin akan membuat mobil terlihat belang. Full body repaint adalah solusi terbaik.</p>
-
-      <h3>3. Clear Coat Mengelupas (Peeling)</h3>
-      <p>Ini adalah tanda kerusakan cat yang paling parah. Jika lapisan bening pelindung cat sudah mulai mengelupas seperti kulit, maka lapisan cat di bawahnya tidak lagi terlindungi dan akan cepat rusak. Segera lakukan pengecatan ulang sebelum karat menyerang bodi mobil.</p>
-
-      <p>Ingin mobil lama Anda terlihat seperti baru keluar dari showroom? Konsultasikan layanan siram full body di <strong>AWING Body Repair</strong>.</p>
+      <p>Pemilihan warna cat mobil – membuat bosan dengan kendaraan lama? Solusinya tak harus beli baru. Mengganti warna cat mobil (repaint) bisa memberikan nuansa segar yang drastis.</p>
+      <h3>Tips Memilih Warna</h3>
+      <ul>
+        <li>Pilih warna yang sesuai dengan karakter Anda.</li>
+        <li>Pertimbangkan warna yang mudah perawatannya (seperti silver atau abu-abu).</li>
+        <li>Gunakan cat berkualitas tinggi agar warna tahan lama dan tidak cepat pudar.</li>
+      </ul>
+    `,
+    },
+    {
+        slug: "warna-cat-mobil-terpopuler",
+        title: "Warna Cat Mobil Terpopuler Saat Ini",
+        excerpt:
+            "Warna cat mobil terpopuler adalah warna yang paling banyak kita temui. Apa saja tren warna saat ini?",
+        date: "2023-09-23",
+        author: "Admin AWING",
+        image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=2070&auto=format&fit=crop",
+        tags: ["Tren", "Warna"],
+        content: `
+      <p>Warna cat mobil terpopuler adalah warna yang paling banyak kita temui atau orang lain gunakan pada mobil mereka. Hal itu menjadikan sebuah warna cat mobil menjadi tren.</p>
+      <p>Saat ini, warna-warna monokrom seperti Putih, Hitam, dan Abu-abu masih mendominasi. Namun, warna-warna unik seperti Nardo Grey atau warna pastel mulai banyak diminati untuk memberikan kesan modern dan sporty.</p>
+    `,
+    },
+    {
+        slug: "sebab-sasis-mobil-keropos",
+        title: "Waspada! Ini Sebab Sasis Mobil Keropos",
+        excerpt:
+            "Tidak ada yang lebih menyebalkan daripada sasis mobil yang keropos. Ketahui penyebabnya sebelum terlambat.",
+        date: "2023-09-22",
+        author: "Admin AWING",
+        image: "https://images.unsplash.com/photo-1625047509168-a7026f36de04?q=80&w=2000&auto=format&fit=crop",
+        tags: ["Perawatan", "Sasis"],
+        content: `
+      <p>Sebab Sasis Mobil Keropos - Tidak ada yang lebih menyebalkan daripada sasis mobil yang keropos. Rasanya seperti mobil kita sedang berada dalam bahaya besar ketika bagian vital ini mulai rusak.</p>
+      <p>Penyebab utamanya adalah karat yang tidak segera ditangani. Air hujan, lumpur, dan kotoran yang menempel di kolong mobil jika dibiarkan akan memicu korosi. Lakukan pelapisan anti-karat secara berkala untuk mencegahnya.</p>
+    `,
+    },
+    {
+        slug: "ahli-perbaikan-body-mobil",
+        title: "Pentingnya Memilih Ahli Perbaikan Body Mobil",
+        excerpt:
+            "Memiliki kendaraan yang terdapat luka goresan atau penyok jelas membuat hati tidak nyaman. Percayakan pada ahlinya.",
+        date: "2023-09-22",
+        author: "Admin AWING",
+        image: "https://images.unsplash.com/photo-1599256621730-535171e28e50?q=80&w=2069&auto=format&fit=crop",
+        tags: ["Tips", "Edukasi"],
+        content: `
+      <p>Ahli Perbaikan Body Mobil – Memiliki kendaraan yang terdapat luka goresan atau penyok di sisi bagian tertentu jelas membuat hati tidak nyaman. Walaupun sedikit kerusakan, hal ini bisa mengurangi estetika mobil.</p>
+      <p>Memilih bengkel yang tepat sangat krusial. Pastikan bengkel memiliki teknisi berpengalaman, peralatan lengkap, dan reputasi yang baik seperti AWING Body Repair untuk hasil yang memuaskan.</p>
     `,
     },
 ];

@@ -8,28 +8,33 @@ import { Instagram } from "lucide-react";
 const projects = [
     {
         image: "/images/portfolio-1.jpg",
-        title: "Restorasi Total",
+        title: "Repair & Cat Ford Everest",
         category: "Body Repair"
     },
     {
         image: "/images/portfolio-2.jpg",
-        title: "Pengecatan Ulang",
-        category: "Cat Mobil"
+        title: "Restorasi Vespa Klasik",
+        category: "Restorasi Motor"
     },
     {
         image: "/images/portfolio-3.jpg",
-        title: "Perbaikan Bumper",
-        category: "Perbaikan Minor"
+        title: "Cat Full Body Toyota Vios",
+        category: "Repaint Full Body"
     },
     {
         image: "/images/portfolio-4.jpg",
-        title: "Detailing Interior",
-        category: "Perawatan"
+        title: "Cat Panel Toyota Camry",
+        category: "Cat Panel"
     },
     {
         image: "/images/portfolio-5.jpg",
-        title: "Kustomisasi Warna",
-        category: "Modifikasi"
+        title: "Cat Moge Harley Davidson",
+        category: "Cat Motor"
+    },
+    {
+        image: "/images/portfolio-1.jpg", // Reusing image for demo
+        title: "Body Repair Honda Freed",
+        category: "Body Repair"
     }
 ];
 

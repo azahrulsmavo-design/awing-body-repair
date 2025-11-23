@@ -6,28 +6,33 @@ import { PaintBucket, Car, Wrench, ShieldCheck, Sparkles, Hammer } from "lucide-
 const services = [
     {
         icon: <Car size={32} />,
-        title: "Perbaikan Bodi Menyeluruh",
-        description: "Restorasi lengkap bodi kendaraan Anda, menghilangkan penyok, goresan, dan kerusakan akibat tabrakan dengan presisi."
-    },
-    {
-        icon: <Sparkles size={32} />,
-        title: "Pencocokan Warna",
-        description: "Teknologi pencocokan warna komputerisasi canggih untuk memastikan cat baru menyatu sempurna dengan warna asli."
-    },
-    {
-        icon: <Hammer size={32} />,
-        title: "Ketok Magic & Las",
-        description: "Pengerjaan logam ahli untuk membentuk kembali panel yang rusak kembali ke kontur aslinya."
+        title: "Cat Mobil Full Body",
+        description: "Kembalikan kilau mobil seperti baru dengan full body repaint. Ubah warna untuk tampil beda atau segarkan warna asli yang sudah kusam."
     },
     {
         icon: <Wrench size={32} />,
-        title: "Perlindungan Anti Karat",
-        description: "Perawatan anti karat komprehensif untuk melindungi bodi kendaraan Anda dari korosi."
+        title: "Cat Panel & Body Repair",
+        description: "Solusi untuk mobil penyok atau tergores. Layanan perbaikan panel dan pengecatan parsial untuk mengembalikan tampilan semula."
+    },
+    {
+        icon: <Sparkles size={32} />,
+        title: "Restorasi Mobil",
+        description: "Kembalikan keantikan dan memori mobil klasik kesayangan Anda dengan layanan restorasi body total yang detail dan presisi."
     },
     {
         icon: <ShieldCheck size={32} />,
-        title: "Klaim Asuransi",
-        description: "Kami membantu proses klaim asuransi untuk membuat proses perbaikan lancar dan bebas repot."
+        title: "Salon Mobil & Detailing",
+        description: "Tampil bangga dengan mobil bersih mengkilap. Detailing eksterior, interior, ruang mesin, hingga coating sesuai keinginan."
+    },
+    {
+        icon: <Hammer size={32} />,
+        title: "Setting Body & Bumper",
+        description: "Perbaikan bumper turun, bercelah, atau terlepas akibat benturan. Kami setting ulang agar kembali rapi dan presisi."
+    },
+    {
+        icon: <PaintBucket size={32} />,
+        title: "Cat Motor & Lainnya",
+        description: "Layanan pengecatan dan reparasi untuk motor gede (Moge), Vespa, dan kendaraan bermotor lainnya dengan kualitas terbaik."
     }
 ];
 
