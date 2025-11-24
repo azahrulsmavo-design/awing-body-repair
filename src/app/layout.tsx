@@ -13,6 +13,9 @@ export const metadata: Metadata = {
   title: "AWING Body Repair & Cat | Bengkel Cat Mobil Depok",
   description: "Bengkel Cat Mobil Pak Awing (Caswin). Layanan body repair dan pengecatan premium di Cimanggis, Depok. Hasil presisi, kilau showroom, dan bergaransi.",
   keywords: "body repair, cat mobil, bengkel cat depok, awing body repair, perbaikan bodi mobil, cat mobil premium, cimanggis",
+  verification: {
+    google: "google-site-verification=lVgyLSV52I5g5J36iU5ZscnpdcQXSU9jsYoBZXIpEPQ",
+  },
 };
 
 export default function RootLayout({
