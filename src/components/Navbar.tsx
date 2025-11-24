@@ -33,13 +33,13 @@ export default function Navbar() {
         <header
             className={cn(
                 "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-                isScrolled ? "py-4 bg-white/80 backdrop-blur-md border-b border-slate-200 shadow-sm" : "py-6 bg-transparent"
+                isScrolled ? "py-3 bg-white/80 backdrop-blur-md border-b border-slate-200 shadow-sm" : "py-5 bg-transparent"
             )}
         >
-            <div className="container mx-auto px-6 flex items-center justify-between">
-                <Link href="/" className="relative w-40 h-14">
+            <div className="max-w-7xl mx-auto px-8 md:px-12 flex items-center justify-between">
+                <Link href="/" className="relative w-40 h-12">
                     <Image
-                        src="/images/logo.png"
+                        src="/images/logo-v2.png"
                         alt="AWING Body Repair"
                         fill
                         className="object-contain object-left"
@@ -48,13 +48,13 @@ export default function Navbar() {
                 </Link>
 
                 {/* Desktop Nav */}
-                <nav className="hidden md:flex items-center gap-8">
+                <nav className="hidden md:flex items-center gap-10">
                     {navLinks.map((link) => (
                         <Link
                             key={link.name}
                             href={link.href}
                             className={cn(
-                                "text-sm font-medium transition-colors",
+                                "text-base font-medium transition-colors",
                                 isScrolled ? "text-slate-600 hover:text-blue-600" : "text-slate-800 hover:text-blue-600"
                             )}
                         >
@@ -64,9 +64,9 @@ export default function Navbar() {
                     <Link
                         href="https://wa.me/6281995896037"
                         target="_blank"
-                        className="px-5 py-2.5 bg-blue-600 text-white text-sm font-semibold rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-2 shadow-md hover:shadow-lg"
+                        className="px-6 py-3 bg-blue-600 text-white text-base font-semibold rounded-lg hover:bg-blue-700 transition-colors flex items-center gap-2 shadow-md hover:shadow-lg"
                     >
-                        <Phone size={16} />
+                        <Phone size={18} />
                         Pesan Sekarang
                     </Link>
                 </nav>
