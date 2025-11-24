@@ -1,4 +1,4 @@
-# 🚗 AWING Body Repair & Cat — Modern Landing Page (Next.js 14)
+# 🚗 AWING Body Repair & Cat — Modern Landing Page
 
 Situs resmi untuk **AWING Body Repair & Cat**, bengkel body repair dan repaint mobil yang berlokasi di Depok.  
 Website ini dibangun untuk fokus pada **konversi WhatsApp**, tampilan **modern premium**, dan siap untuk **SEO lokal**.
@@ -7,7 +7,7 @@ Website ini dibangun untuk fokus pada **konversi WhatsApp**, tampilan **modern p
 Membuat landing page modern (one page) yang:
 - Fokus pada konversi WhatsApp
 - Menampilkan layanan, proses kerja, dan galeri before-after
-- Menggunakan desain **Slate Grey + Electric Blue**
+- Menggunakan desain **Slate Grey + Electric Blue** dengan tema **Light/Dark Modern**
 - Memiliki blog untuk SEO (`/blog` & `/blog/[slug]`)
 - Ringan, responsif, dan di-deploy dengan mudah (Vercel)
 
@@ -16,10 +16,10 @@ Membuat landing page modern (one page) yang:
 ## 🧩 Tech Stack
 
 ### **Frontend**
-- **Next.js 14 (App Router)**
-- **React 18**
+- **Next.js 16 (App Router)**
+- **React 19**
 - **TypeScript**
-- **Tailwind CSS**
+- **Tailwind CSS 4**
 - **Lucide Icons**
 - **Framer Motion**
 - **next/font** with *Inter*
@@ -36,17 +36,17 @@ Membuat landing page modern (one page) yang:
 ### **Color Palette — Slate + Blue**
 | Purpose | Color |
 |--------|--------|
-| Background | `#F1F5F9` |
-| Text Primary | `#0F172A` |
-| Accent 1 | `#3B82F6` |
-| Accent 2 | `#1D4ED8` |
-| Border | `#CBD5E1` |
+| Background | `#0F172A` (Slate 900) / `#F8FAFC` (Slate 50) |
+| Text Primary | `#F8FAFC` / `#0F172A` |
+| Accent 1 | `#3B82F6` (Blue 500) |
+| Accent 2 | `#2563EB` (Blue 600) |
+| Border | `#1E293B` / `#E2E8F0` |
 
 ### **Typography**
 - **Inter** (Bold / SemiBold / Medium / Regular)
 - Heading: ExtraBold / Bold  
 - Body: Regular  
-- CTA Button: SemiBold (UPPERCASE)
+- CTA Button: SemiBold
 
 ---
 
@@ -65,17 +65,16 @@ src/
 │    │           └── page.tsx   # Blog Detail
 │
 └── components/
-├── Header.tsx
-├── Hero.tsx
-├── Features.tsx
-├── Services.tsx
-├── Gallery.tsx
-├── Process.tsx
-├── Pricing.tsx
-├── Testimonials.tsx
-├── Location.tsx
-├── Footer.tsx
-└── FloatingCTA.tsx       # WhatsApp floating button
+├── Navbar.tsx            # Responsive Navigation
+├── Hero.tsx              # Hero Section with Background Image
+├── Features.tsx          # Key Features
+├── Services.tsx          # Service List
+├── Gallery.tsx           # Before/After Gallery
+├── Testimonials.tsx      # Customer Reviews
+├── About.tsx             # About Us
+├── Contact.tsx           # Contact Form & Map
+├── Footer.tsx            # Footer
+└── BlogPreview.tsx       # Latest Articles
 ```
 
 ---
@@ -115,14 +114,15 @@ http://localhost:3000
 Di file konfigurasi CTA:
 
 ```
-/components/FloatingCTA.tsx
+/components/Navbar.tsx
 /components/Hero.tsx
+/components/Contact.tsx
 ```
 
 Ganti placeholder:
 
 ```
-6281234567890
+6281995896037
 ```
 
 → menjadi nomor resmi bisnis.
@@ -142,12 +142,11 @@ Ganti placeholder:
 
 ## 🧪 Verification Checklist
 
-* [ ] Responsif di mobile, tablet, desktop
-* [ ] CTA WhatsApp berfungsi
-* [ ] Smooth scroll antar section
-* [ ] LCP < 2.5s (Lighthouse)
-* [ ] Blog muncul & slug berfungsi
-* [ ] Ganti foto placeholder dengan foto asli
+* [x] Responsif di mobile, tablet, desktop
+* [x] CTA WhatsApp berfungsi
+* [x] Smooth scroll antar section
+* [x] Blog muncul & slug berfungsi
+* [x] Logo & Background Image Updated
 
 ---
 

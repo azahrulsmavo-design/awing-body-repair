@@ -10,11 +10,28 @@ export const metadata: Metadata = {
         "Kumpulan artikel, tips perawatan cat mobil, dan edukasi seputar body repair dari ahli kami di AWING Body Repair Depok.",
 };
 
+import JsonLd from "@/components/json-ld";
+
 export default function BlogIndexPage() {
     const posts = getBlogPosts();
 
     return (
         <main className="pt-24 pb-16 min-h-screen bg-slate-50">
+            <JsonLd data={{
+                "@context": "https://schema.org",
+                "@type": "BreadcrumbList",
+                "itemListElement": [{
+                    "@type": "ListItem",
+                    "position": 1,
+                    "name": "Home",
+                    "item": "https://awingbodyrepair.com"
+                }, {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "name": "Blog",
+                    "item": "https://awingbodyrepair.com/blog"
+                }]
+            }} />
             <div className="container mx-auto px-4 md:px-6">
                 <div className="text-center max-w-3xl mx-auto mb-12">
                     <h1 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
