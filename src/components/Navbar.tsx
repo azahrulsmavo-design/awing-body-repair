@@ -55,7 +55,7 @@ export default function Navbar() {
                             href={link.href}
                             className={cn(
                                 "text-base font-medium transition-colors",
-                                isScrolled ? "text-slate-600 hover:text-blue-600" : "text-slate-800 hover:text-blue-600"
+                                isScrolled ? "text-slate-600 hover:text-blue-600" : "text-white/90 hover:text-white"
                             )}
                         >
                             {link.name}
@@ -75,7 +75,7 @@ export default function Navbar() {
                 <button
                     className={cn(
                         "md:hidden",
-                        isScrolled ? "text-slate-900" : "text-slate-900"
+                        isScrolled ? "text-slate-900" : "text-white"
                     )}
                     onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                 >
